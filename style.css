@@ -1,0 +1,264 @@
+body {
+    background: url(./images/bg-header-desktop.png) no-repeat top;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+header {
+    margin-top: 125px;
+    margin-right: 10px;
+    align-content: center;
+    text-align: center;
+}
+header img {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+}
+h1 {
+    margin-top: 51px;
+    font-size: 43px;
+    color: hsl(210, 10%, 33%);
+    padding-bottom: 0%;
+    margin-bottom: 15px;
+}
+p {
+    color: hsl(201, 11%, 66%);
+    font-size: 19.5px;
+    line-height: 30px;
+    padding-top: 0%;
+    margin-top: 0%;
+    opacity: 85%;
+}
+button {
+    height: 50px;
+    width: 220px;
+    border-radius: 30px;
+    border: 0px;
+    margin: 5px;
+    margin-top: 26px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+}
+.one {
+    background-color: hsl(171, 66%, 44%);
+    border-color: hsl(171, 66%, 44%);
+    /*box-shadow: 0px 0px 0px 0.2px rgba(155, 155, 155, 0.897);*/
+    box-shadow: 0px 1.5px 2px 2px hsl(170, 49%, 38%);
+    opacity: 70%;
+    margin-left: 29px;
+}
+.two {
+    background-color: hsl(233, 100%, 69%);
+    border-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 1.5px 2px 2px hsl(233, 40%, 50%);
+    opacity: 70%;
+
+}
+h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: 35px;
+    margin-top: 85px;
+    align-self: center;
+}
+h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 15px;
+    margin-top: 85px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+#computer {
+    height: 550px;
+    width: 710px;
+    padding-left: 0%;
+    margin-left: -35px;
+}
+.text {
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: left;
+}
+.bold {
+    color: hsl(210, 10%, 33%);
+    font-size: 25px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+.light {
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+}
+.h {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: auto;
+    padding-bottom: 0%;
+}
+.h p {
+    color: hsl(201, 11%, 66%);
+    font-size: 17px;
+    line-height: 30px;
+    padding-top: 0%;
+    margin-top: 0%;
+    /*opacity: 95%;*/
+    text-align: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column img {
+    height: 510px;
+    width: 839px;
+    margin-top: 70px;
+}
+.bottom {
+    width: auto;
+    height: auto;
+    display: block;
+    /*margin-left: 500px;*/
+    
+}
+.box {
+    width: 380px;
+    height: auto;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.smaller {
+    font-size: 15px;    
+}
+.box img {
+    height: 32px;
+    width: 48px;
+
+}
+.box h3 {
+    margin-top: 45px;
+    font-size: 22px;
+}
+#o {
+    margin-left: 135px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 110px;
+    margin-bottom: 200px;
+}
+.logo img {
+    width: 100px;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+#google {
+    width: 160px;
+    height: 47px;
+    margin-left: 150px;
+}
+#ibm {
+    height: 50px;
+    width: 130px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#micro {
+    height: 35px;
+    width: 155px;
+    margin-right: 100px;
+}
+#hp {
+    height: 50px;
+    width: 135px;
+    margin-right: 100px;
+}
+#vg {
+    height: 30px;
+    width: 110px;
+}
+footer {
+    background-color: hsl(210, 20%, 96%);
+    margin-top: 150px;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    margin-left: -8px;
+    display: flex;
+    flex-direction: row;
+    
+}
+footer img {
+    height: 53px;
+    width: 53px;
+    margin-left: 160px;
+    margin-top: 40px;
+}
+#i {
+    width: 330px;
+}
+.grid {
+    width: 30%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+a {
+    color:  hsl(210, 10%, 33%);
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    opacity: 90%;
+}
+a:hover {
+    color: hsl(171, 66%, 44%);
+}
+#faqs {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    margin-top: 30px;
+}
+#cu {
+    grid-row: 2 / 2;
+    grid-column: 1 / 1;
+}
+#pp {
+    grid-row: 1 / 1;
+    grid-column: 2 / 2;
+    margin-top: 30px
+
+}
+#pk {
+    grid-row: 2 / 2;
+    grid-column: 2 / 2;
+}
+#ig {
+    grid-row: 1 / 1;
+    grid-column: 3 / 3;
+    margin-top: 30px
+
+}
+.sm {
+    margin-left: 350px;
+}
+.sm img {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    margin-top: 50px;
+}
+.sm img:hover {
+    cursor: pointer;
+}
